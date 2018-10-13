@@ -32,12 +32,21 @@ body {
 
 .main-header__item {
   display: inline-block;
+  vertical-align: middle; /*To put it and li items on the same line*/
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
 }
 
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 66px);
+  width: calc(100% - 88px);
+  vertical-align: middle; /*To put it and nav-brand on the same line*/
 }
 
 .main-nav__items {
@@ -49,4 +58,24 @@ body {
 /* @@display: inline-block is very helpful as it makes elements go inline and we can also aplly style to thhem as they are block level which is not possible is the display is inline */
 .main-nav__item {
   display: inline-block;
+  margin: 0px 10px;
+}
+
+.main-nav__item > a {
+  text-decoration: none;
+  color: #0e4f1f;
+  /* padding: 0px 10px; */
+}
+
+.main-nav__item > a:hover {
+  color: white;
+}
+
+.main-nav__item > a:active {
+  color: white;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 22px;
 }
