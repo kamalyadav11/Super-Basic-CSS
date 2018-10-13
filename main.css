@@ -1,5 +1,9 @@
 /* block level elements like div, section, main already takes full availbale width i.e; 100% while inline elements takes width in which they can adjust */
 
+* {
+  box-sizing: border-box; /* //it makes sure that the box adjust its height and width according to given margin and padding and does not increase height if margin and padding are provided like in content box(which is the default box-sizing) */
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -7,8 +11,10 @@ body {
 
 #product-overview {
   background: #ff1b68;
-  width: 50%;
-  height: 100%;
+  height: 528px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
 }
 
 /* @@combinators */
