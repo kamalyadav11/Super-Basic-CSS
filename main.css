@@ -1,9 +1,13 @@
+/* block level elements like div, section, main already takes full availbale width i.e; 100% while inline elements takes width in which they can adjust */
+
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 #product-overview {
   background: #ff1b68;
+  width: 50%;
 }
 
 /* @@combinators */
