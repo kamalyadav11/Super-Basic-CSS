@@ -13,8 +13,6 @@ body {
   background: #ff1b68;
   height: 528px;
   padding: 10px;
-  border: 5px solid black;
-  margin: 10px;
 }
 
 /* @@combinators */
@@ -25,4 +23,30 @@ body {
 
 .section-title {
   color: #2ddf5c;
+}
+
+.main-header {
+  background: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-header__item {
+  display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 66px);
+}
+
+.main-nav__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* @@display: inline-block is very helpful as it makes elements go inline and we can also aplly style to thhem as they are block level which is not possible is the display is inline */
+.main-nav__item {
+  display: inline-block;
 }
