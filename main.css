@@ -9,22 +9,9 @@ body {
   margin: 0;
 }
 
-#product-overview {
-  background: url("freedom.jpg");
-  background-size: 100%;
-  height: 528px;
-  padding: 10px;
-}
-
-/* @@combinators */
-#product-overview h1 {
-  color: white;
-  font-family: "Anton", sans-serif;
-}
-
-.section-title {
-  color: #2ddf5c;
-}
+/**-----------------------*/
+/*Main Navigation Section*/
+/*-----------------------*/
 
 .main-header {
   background: #2ddf5c;
@@ -56,7 +43,7 @@ body {
   margin: 0;
 }
 
-/* @@display: inline-block is very helpful as it makes elements go inline and we can also aplly style to thhem as they are block level which is not possible is the display is inline */
+/* @@display: inline-block is very helpful as it makes elements go inline and we can also apply style to thhem as they are block level which is not possible if the display is inline */
 .main-nav__item {
   display: inline-block;
   margin: 0px 10px;
@@ -89,7 +76,48 @@ body {
   border: none;
 }
 
-p::first-letter {
-  color: red;
-  font-size: 22px;
+/**------------------------*/
+/*Product Overview Section*/
+/*------------------------*/
+
+#product-overview {
+  background: url("freedom.jpg");
+  height: 528px;
+  padding: 10px;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+
+/**-----------------------*/
+/*Plans Section*/
+/*-----------------------*/
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+.plan {
+  background-color: #d5ffdc;
+  text-align: center;
+  display: inline-block;
+  padding: 16px;
+  margin: 8px;
+  vertical-align: middle;
+  width: 32%;
+}
+
+.plan--highlighted {
+  background-color: #19b84c;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+  background-color: white;
+  color: #0e4f1f;
+  padding: 8px;
 }
