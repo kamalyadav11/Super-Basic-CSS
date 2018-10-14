@@ -107,7 +107,7 @@ body {
   padding: 16px;
   margin: 8px;
   vertical-align: middle;
-  width: 32%;
+  width: 30%;
 }
 
 .plan--highlighted {
@@ -165,4 +165,49 @@ body {
 .button:active {
   color: #0e4f1f;
   background: white;
+}
+
+.button:focus {
+  outline: none;
+}
+
+/**--------------------------------*/
+/*-------Key-features Section------*/
+/*---------------------------------*/
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+
+.key-features__list {
+  list-style: none;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  margin: auto;
+  border: 2px solid #0e4f1f;
+  border-radius: 50%;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+
+.key-feature__description {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
 }
