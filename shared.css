@@ -1,0 +1,134 @@
+/* block level elements like div, section, main already takes full availbale width i.e; 100% while inline elements takes width in which they can adjust */
+
+* {
+  box-sizing: border-box; /* //it makes sure that the box adjust its height and width according to given margin and padding and does not increase height if margin and padding are provided like in content box(which is the default box-sizing) */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+/**-----------------------*/
+/*Main Navigation Section*/
+/*-----------------------*/
+
+.main-header {
+  background: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-header__item {
+  display: inline-block;
+  vertical-align: middle; /*To put it and li items on the same line*/
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 88px);
+  vertical-align: middle; /*To put it and nav-brand on the same line*/
+}
+
+.main-nav__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* @@display: inline-block is very helpful as it makes elements go inline and we can also apply style to thhem as they are block level which is not possible if the display is inline */
+.main-nav__item {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.main-nav__item > a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.main-nav__item-cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item > a:hover,
+.main-nav__item > a:active {
+  color: white;
+  border-bottom: 3px solid black;
+}
+
+.main-nav__item-cta a:hover,
+.main-nav__item-cta a:active {
+  color: #ff1b68;
+  background: white;
+  border: none;
+}
+
+/**--------------------------------*/
+/*----------Footer Section---------*/
+/*---------------------------------*/
+
+.main-footer {
+  background: black;
+  padding: 32px;
+  margin-top: 48px;
+}
+
+.main-footer__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-footer__link a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #ccc;
+}
+
+/*------------------------*/
+/*-----Button Styling-----*/
+/*------------------------*/
+
+.button {
+  background: #0e4f1f;
+  color: white;
+  font: inherit;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  color: #0e4f1f;
+  background: white;
+}
+
+.button:focus {
+  outline: none;
+}
