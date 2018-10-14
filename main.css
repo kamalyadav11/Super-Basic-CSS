@@ -143,9 +143,26 @@ body {
 }
 
 .plan__price {
-  color: gray;
+  color: #858585;
 }
 
 .plan--highlighted .plan__price {
   color: #0e4f1f;
+}
+
+.button {
+  background: #0e4f1f;
+  color: white;
+  font: inherit;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  color: #0e4f1f;
+  background: white;
 }
