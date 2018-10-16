@@ -2,6 +2,10 @@
 /*Product Overview Section*/
 /*------------------------*/
 
+main {
+  padding-top: 2rem;
+}
+
 #product-overview {
   background-image: url("freedom.jpg");
   background-size: cover;
@@ -9,12 +13,13 @@
   background-repeat: no-repeat;
   background-origin: border-box;
   background-clip: border-box;
+  /* background-image: linear-gradient(violet 14%, indigo); */
   width: 100%;
   border: 5px dashed red;
-  height: 528px;
+  height: 33rem;
   padding: 10px;
   position: relative;
-  /* margin-top: 43px; */
+  margin-top: 43px;
 }
 
 #product-overview h1 {

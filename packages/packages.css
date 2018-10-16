@@ -1,5 +1,5 @@
 main {
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .background {
@@ -15,7 +15,7 @@ main {
   border-top: 5px solid #0e4f1f;
   border-bottom: 5px solid #0e4f1f;
   width: 80%;
-  margin: 16px 0;
+  margin: 1.2rem 0;
   position: relative;
 }
 
@@ -24,11 +24,11 @@ main {
   position: absolute;
   top: 0px;
   right: 0px;
-  margin: 20px;
-  font-size: 12px;
+  margin: 1.2rem;
+  font-size: 0.8rem;
   color: white;
   background: #ff5454;
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .packages-description:hover,
@@ -41,13 +41,13 @@ main {
   text-decoration: none;
   color: inherit;
   display: block;
-  padding: 32px;
+  padding: 2rem;
 }
 
 .packages-description__title {
   color: black;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 1.52rem;
 }
 
 .packages-description__heading {
@@ -57,9 +57,9 @@ main {
 .packages-description__detail {
   border: 1px solid #0e4f1f;
   background: white;
-  padding: 16px;
+  padding: 1rem;
   color: #0e4f1f;
-  font-size: 22px;
+  font-size: 1.4rem;
 }
 
 .clearfix {
