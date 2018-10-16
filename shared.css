@@ -8,16 +8,16 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
-/* 
+
 .backdrop {
   position: fixed;
   z-index: 100;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-} */
+}
 
 /**-----------------------*/
 /*Main Navigation Section*/
@@ -27,7 +27,7 @@ body {
   width: 100%;
   position: fixed;
   background: #2ddf5c;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   z-index: 1;
 }
 
@@ -40,8 +40,8 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 26px;
-  height: 26px;
+  font-size: 1.6rem;
+  height: 1.6rem;
   display: inline-block;
 }
 
@@ -65,21 +65,21 @@ body {
 /* @@display: inline-block is very helpful as it makes elements go inline and we can also apply style to thhem as they are block level which is not possible if the display is inline */
 .main-nav__item {
   display: inline-block;
-  margin: 0px 10px;
+  margin: 0px 0.6rem;
 }
 
 .main-nav__item > a {
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 0.6rem;
 }
 
 .main-nav__item-cta a {
   color: white;
   background: #ff1b68;
-  padding: 8px 16px;
-  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
 }
 
 .main-nav__item > a:hover,
@@ -101,8 +101,8 @@ body {
 
 .main-footer {
   background: black;
-  padding: 32px;
-  margin-top: 48px;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -114,7 +114,7 @@ body {
 
 .main-footer__link {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 .main-footer__link a {

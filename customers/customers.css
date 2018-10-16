@@ -1,5 +1,5 @@
 main {
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .testimonial {
@@ -18,7 +18,7 @@ main {
 
 .testimonial__image-container {
   width: 70%;
-  max-width: 580px;
+  max-width: 36.25rem;
   display: inline-block;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
   vertical-align: middle;
