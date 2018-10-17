@@ -11,7 +11,7 @@ body {
 
 .backdrop {
   position: fixed;
-  z-index: 100;
+  z-index: 101;
   width: 100vw;
   height: 100vh;
   left: 0;
