@@ -85,7 +85,7 @@ body {
   margin: 0;
 }
 
-/* @@display: inline-block is very helpful as it makes elements go inline and we can also apply style to thhem as they are block level which is not possible if the display is inline */
+/* @display: inline-block is very helpful as it makes elements go inline and we can also apply style to thhem as they are block level which is not possible if the display is inline */
 .main-nav__item {
   display: inline-block;
   margin: 0px 0.6rem;
