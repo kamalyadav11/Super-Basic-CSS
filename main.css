@@ -127,7 +127,7 @@ main {
 
 #key-features .section-title {
   color: white;
-  margin: 2rem 0;
+  margin: 2rem;
 }
 
 .key-features__list {
@@ -143,17 +143,20 @@ main {
   border-radius: 50%;
 }
 
-.key-feature {
-  display: inline-block;
-  width: 33%;
-  vertical-align: top;
-}
-
 .key-feature__description {
   text-align: center;
   color: white;
   font-weight: bold;
   font-size: 1.4rem;
+}
+
+@media (min-width: 57.7rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    /* max-width: 25rem; */
+    vertical-align: top;
+  }
 }
 
 /**--------------------------------*/
