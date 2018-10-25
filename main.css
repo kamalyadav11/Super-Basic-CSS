@@ -32,6 +32,9 @@ main {
 
 /* this means: if(min-width is equal to or larger than 40rem) */
 @media (min-width: 40rem) {
+  #product-overview {
+    height: 40vh;
+  }
   #product-overview h1 {
     font-size: 2rem;
   }
