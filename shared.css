@@ -30,20 +30,21 @@ body {
   background: #2ddf5c;
   padding: 0.5rem 1rem;
   z-index: 1;
+  display: flex;
 }
-
+/* 
 .main-header__item {
   display: inline-block;
-  vertical-align: middle; /*To put it and li items on the same line*/
-}
+  vertical-align: middle; 
+} */
 
 .main-header__brand {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.6rem;
-  height: 1.6rem;
+  height: 1.5rem;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .toggle-button {
